@@ -1,4 +1,8 @@
+if _G.KAMAT == true then
 getgenv().WebhookURL = _G.WebhookURL
 getgenv().WaitTrue = _G.WaitTrue
 getgenv().Wait = _G.Wait
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Eviltwin001/Comet-Farm/main/Comet%20Farm%20V2"))()
+else
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Eviltwin001/Comet-Farm/main/Comet%20Farm%20V2"))()
+end
