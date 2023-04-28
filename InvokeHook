@@ -1,1 +1,0 @@
-hookfunction(debug.getupvalue(Library.Invoke, 1), function(...) return true end)
